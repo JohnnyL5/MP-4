@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 
+/*styling for my home page*/
 const WelcomePage = styled.main`
     width: 100%;
     min-height: 100vh;
@@ -28,6 +29,7 @@ const WelcomePage = styled.main`
     }
 `;
 
+/*Exporting home page this is the first thing user sees when they enter my website*/
 export default function Home() {
     return (
         <WelcomePage>

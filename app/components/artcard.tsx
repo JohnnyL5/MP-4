@@ -2,8 +2,8 @@
 import styled from "styled-components";
 import {Artdisplay} from "@/app/artinterface/artdisplay";
 
+/*Styling for the individual pictures*/
 const ArtContainer = styled.div`
-    
     display: flex;
     flex-direction: column;
     align-items: center;
