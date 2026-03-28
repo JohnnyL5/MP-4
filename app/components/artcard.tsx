@@ -42,7 +42,7 @@ export default function ArtCard(props: Artdisplay) {
     return (
         <ArtContainer>
             <h2 className = "arttitle">{props.title}</h2>
-            <img className= "artpic" src={props.primaryimageurl || "/no-image.png"} alt={"No Image"} />
+            <img className= "artpic" src={props.primaryimageurl || " "} alt={"No Image"} />
             <p className = "artp">{props.dated}</p>
         </ArtContainer>
     );
